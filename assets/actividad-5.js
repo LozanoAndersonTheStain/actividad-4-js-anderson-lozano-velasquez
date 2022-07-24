@@ -34,4 +34,6 @@ if(tipoHuevo = 2 && huevosAdquiridos> 201 && huevosAdquiridos < 301){
 else 
 if(tipoHuevo = 2 && huevosAdquiridos >= 301){
     alert(`El total a pagar es ${(250 * huevosAdquiridos)/ 0.10}`)
+}else {
+    alert('Para validar tu compra, debes elegir 1 o 2 para poder hacer tu compra, de lo contrario no sera realizada')
 }
